@@ -17,6 +17,8 @@ document.getElementById('btn-noakhali').addEventListener('click', function (even
     p.innerText = `${inputNoakhali} tk is donated for Donate for Flood at Noakhali, Bangladesh.`;
     document.getElementById('noakhali-history').appendChild(p);
 
+    my_modal_1.showModal();
+
 
 })
 
@@ -38,6 +40,8 @@ document.getElementById('btn-feni').addEventListener('click', function () {
     p.innerText = `${inputFeni} tk is donated for Donate for Flood Relief in Feni,Bangladesh.`;
     document.getElementById('feni-history').appendChild(p);
 
+    my_modal_1.showModal();
+
 })
 
 // for quota
@@ -57,6 +61,8 @@ document.getElementById('btn-quota').addEventListener('click', function () {
     const p = document.createElement('p');
     p.innerText = `${inputQuota} tk is donated for Aid for Injured in the Quota Movement.`;
     document.getElementById('quota-history').appendChild(p);
+
+    my_modal_1.showModal();
 })
 
 // for history btn
