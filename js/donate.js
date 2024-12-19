@@ -14,7 +14,9 @@ document.getElementById('btn-noakhali').addEventListener('click', function (even
     document.getElementById('account-balance').innerText = updateBalance;
 
     const p = document.createElement('p');
-    p.innerText = `${inputNoakhali} tk is donated for Donate for Flood at Noakhali, Bangladesh.`;
+    p.innerText = `${inputNoakhali} tk is donated for Donate for Flood at Noakhali, Bangladesh.
+    ${new Date().toLocaleTimeString()}
+    `;
     document.getElementById('noakhali-history').appendChild(p);
 
     my_modal_1.showModal();
@@ -37,7 +39,9 @@ document.getElementById('btn-feni').addEventListener('click', function () {
     document.getElementById('account-balance').innerText = updateBalance;
 
     const p = document.createElement('p');
-    p.innerText = `${inputFeni} tk is donated for Donate for Flood Relief in Feni,Bangladesh.`;
+    p.innerText = `${inputFeni} tk is donated for Donate for Flood Relief in Feni,Bangladesh.
+     ${new Date().toLocaleTimeString()}
+    `;
     document.getElementById('feni-history').appendChild(p);
 
     my_modal_1.showModal();
@@ -59,7 +63,9 @@ document.getElementById('btn-quota').addEventListener('click', function () {
     document.getElementById('account-balance').innerText = updateBalance;
 
     const p = document.createElement('p');
-    p.innerText = `${inputQuota} tk is donated for Aid for Injured in the Quota Movement.`;
+    p.innerText = `${inputQuota} tk is donated for Aid for Injured in the Quota Movement.
+     ${new Date().toLocaleTimeString()}
+    `;
     document.getElementById('quota-history').appendChild(p);
 
     my_modal_1.showModal();
